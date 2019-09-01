@@ -1,0 +1,29 @@
+body {
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif; }
+  body header {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e415f; }
+  body h1 {
+    color: #fed64f;
+    font-weight: bolder;
+    font-size: 35pt;
+    margin-right: 10px;
+    text-align: center; }
+  body img {
+    width: 10vh; }
+
+nav {
+  width: 80%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  nav div {
+    width: 90%; }
+
+/*# sourceMappingURL=styles.css.map */
