@@ -1,25 +1,37 @@
 body{
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
-
+    background-color: rgb(219, 219, 219);
+    
     header{
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         background-color: #1e415f;
-    }
 
-        h1{
-            color: #fed64f;
-            font-weight: bolder;
-            font-size: 35pt;    
-            margin-right: 10px;
+        #title{
+            display: flex;
+            align-items: center;
+            h1{
+                color: #fed64f;
+                font-weight: bolder;
+                font-size: 35pt;    
+                margin-right: 10px;
+                text-align: center;
+            }
+    
+            img{
+                width: 10vh;
+            }
+        }
+        div p{
+            color: white;
             text-align: center;
         }
+    }
 
-        img{
-            width: 10vh;
-        }
+        
 }
