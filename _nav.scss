@@ -1,19 +1,44 @@
-nav{
+#indice{
     width: 80%;
-    height: 700px;
+    height: 1000px;
     display: flex;  
     justify-content: center;
     margin-top: 20px;
 
+    h1{
+        color: rgba(56,118,170,1);
+        font-family: Montserrat;
+        font-weight: bolder;
+        font-size: calc(7.5em + 7.5vw); 
+        position: absolute;
+        left: 8%;
+        top: 80%;
+    }
     div{
         width: 90%;
-
+        position: relative; 
+        margin-top: 10vw;   
+        left: 30%;    
         h3 a{
             text-decoration: none;
-            color: #B38C24;
+            font-size: calc(.8em + .8vw);  
+            font-weight: bold;              
+            color: white;
+            // text-align: center;
+            margin-right: 80px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            // margin-left: 80px;
         }
         a{
-            color: #1e415f;
+            text-decoration: none;
+            text-align: left;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 200;
+            font-size: 18px;
+            color: rgba(255,211,68,1);
         }
     }
 }
+

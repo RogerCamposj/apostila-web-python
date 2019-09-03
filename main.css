@@ -1,0 +1,149 @@
+body {
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1E415F;
+}
+
+body header {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1e415f;
+}
+
+body header #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body header #title h1 {
+  color: #fed64f;
+  font-family: flux;
+  font-size: 6vw;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+body header #title img {
+  width: 6vw;
+  margin-bottom: 5px;
+}
+
+body header div p {
+  font-size: calc(.5em + .5vw);
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+body header h4 {
+  color: #3876aa;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 900;
+  opacity: 0.64;
+  margin: 0;
+  padding: 0;
+}
+
+#indice {
+  width: 80%;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+#indice h1 {
+  color: #3876aa;
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: calc(7.5em + 7.5vw);
+  position: absolute;
+  left: 8%;
+  top: 80%;
+}
+
+#indice div {
+  width: 90%;
+  position: relative;
+  margin-top: 10vw;
+  left: 30%;
+}
+
+#indice div h3 a {
+  text-decoration: none;
+  font-size: calc(.8em + .8vw);
+  font-weight: bold;
+  color: white;
+  margin-right: 80px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#indice div a {
+  text-decoration: none;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  color: #ffd344;
+}
+
+.secao-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1E415F;
+}
+
+.secao-1 div {
+  width: 80%;
+}
+
+.secao-1 div h2 {
+  color: #f0f0f0;
+}
+
+.secao-1 div h4 {
+  color: #B38C24;
+}
+
+.secao-1 div p {
+  color: aliceblue;
+}
+
+.secao-1 div img {
+  width: 60vh;
+}
+/*# sourceMappingURL=main.css.map */
